@@ -10,3 +10,8 @@ plt.scatter(df['Age'], df['Blood Pressure'])
 plt.xlabel('Age')
 plt.ylabel('Blood Pressure')
 plt.show()
+
+# plot red blood cells as a dunction of age
+plt.figure()
+plt.scatter(df['Age'], df['Red Blood Cells'])
+plt.show()
